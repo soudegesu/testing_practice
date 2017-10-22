@@ -12,5 +12,4 @@ This repo uses...
 ## Some tools(Recommended)
 * [IntelliJ Idea](https://www.jetbrains.com/idea/)
 
-
-
+# Setup local
