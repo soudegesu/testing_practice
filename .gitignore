@@ -1,3 +1,7 @@
+# private folder
+.idea
+.gradle
+
 # Compiled class file
 *.class
 
