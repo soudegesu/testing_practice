@@ -1,0 +1,2 @@
+include 'modules:junit_sample'
+findProject(':modules:junit_sample')?.name = 'junit_sample'
