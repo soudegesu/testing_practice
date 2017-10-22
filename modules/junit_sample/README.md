@@ -9,6 +9,15 @@ junitを使ったテストコード実装の学習をしましょう
 `com.example.practice.one.JUnitTestSample` クラスと、それと対になるテストクラス 
 `com.example.practice.one.JUnitTestSampleTest`
 
+* やってみよう
+  * `JUnitTestSampleTest` を実行して、テストが全て `Green` になることを確認しよう
+  * `JUnitTestSampleTest` の22行目のコメントアウトを解除して、テストが `Red` になることを確認しよう
+
+* 学んで欲しいこと
+  * テストの実行方法
+  * テストの成功(Green)と失敗(Red)
+  * テストの期待値定義と評価
+
 ## 問題1
 
 `com.example.practice.two` パッケージの `AnimalVoice` クラスを実装しよう
@@ -21,3 +30,9 @@ junitを使ったテストコード実装の学習をしましょう
   * `BIRD` の場合には `ぴよ`
   * `HUMAN` の場合には `オス!おら悟空!!`
 * それ以外の動物の場合には `UMAException` が上位に `throw` される
+
+* 学んで欲しいこと
+  * 正常系 / 異常系のテスト
+  * fail first によるテスト
+  * テストカバレッジ
+ 
