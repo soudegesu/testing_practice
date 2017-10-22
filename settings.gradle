@@ -1,2 +1,4 @@
 include 'modules:junit_sample'
 findProject(':modules:junit_sample')?.name = 'junit_sample'
+include 'modules:spring_sample'
+findProject(':modules:spring_sample')?.name = 'spring_sample'
